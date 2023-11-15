@@ -1,37 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "kuukaudet.h"
 
-enum Kuukaudet
+
+int main(int argc, char *argv[])
 {
-    TAMMIKUU = 0, HELMIKUU = 1, MAALISKUU = 2, HUHTIKUU = 3,
-    TOUKOKUU = 4, KESAKUU = 5, HEINAKUU = 6, ELOKUU = 7,
-    SYYSKUU = 8, LOKAKUU = 9, MARRASKUU = 10, JOULUKUU = 11
-};
+    char kkNimi;
+    int vuosiluku;
+    int i;
 
-enum {
-    KK_LKM = 12
-};
+    i = karkausvuosi(vuosiluku);
 
-const char *KK_NIMET[KK_LKM] = {
-    "tammikuu",
-    "helmikuu",
-    "maaliskuu",
-    "huhtikuu",
-    "toukokuu",
-    "kesakuu",
-    "heinakuu",
-    "elokuu",
-    "syyskuu",
-    "lokakuu",
-    "marraskuu",
-    "joulukuu"
+    if (i == 0)
+    {
 
-};
+        printf("ei ole karkausvuosi :(");
+    }
 
+    else if (i == 1)
+    {
 
-int main()
-{
+        printf("karkausvuosi :)");
+    }
+
+    /*kkPituus(*kkNimi, vuosiluku)*/
+
+    /*
     int i;
 
     for (i = 0; i < KK_LKM; i++)
@@ -39,6 +34,7 @@ int main()
 
         printf("%d: %s\n", i, KK_NIMET[i]);
     }
+    */
 
     return 0;
 }
