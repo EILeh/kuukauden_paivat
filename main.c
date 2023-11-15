@@ -1,40 +1,15 @@
+#include "kuukaudet.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "kuukaudet.h"
 
 
-int main(int argc, char *argv[])
+int main()
 {
-    char kkNimi;
-    int vuosiluku;
-    int i;
 
-    i = karkausvuosi(vuosiluku);
-
-    if (i == 0)
-    {
-
-        printf("ei ole karkausvuosi :(");
-    }
-
-    else if (i == 1)
-    {
-
-        printf("karkausvuosi :)");
-    }
-
-    /*kkPituus(*kkNimi, vuosiluku)*/
-
-    /*
-    int i;
-
-    for (i = 0; i < KK_LKM; i++)
-    {
-
-        printf("%d: %s\n", i, KK_NIMET[i]);
-    }
-    */
+    /*printf("Helmikuu 2016: %d päivää\n", kkPituus("Helmikuu", 2016));*/
+    printf("Helmikuu 2100: %d päivää\n", kkPituus("helmikuu", 2100));
+    /*printf("Helmi kuu 2100: %d päivää\n", kkPituus("helmi kuu", 2100));*/
 
     return 0;
 }

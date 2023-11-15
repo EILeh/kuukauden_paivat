@@ -1,10 +1,14 @@
 # depslib dependency file v1.0
-1700057384 source:c:\users\elli\documents\yliopisto\2. vuosi\2023-2024\1.-2. periodi\ohjelmoinnin tekniikka c\osa 2\kuukauden_paivat\main.c
+1700064939 source:c:\users\elli\documents\yliopisto\2. vuosi\2023-2024\1.-2. periodi\ohjelmoinnin tekniikka c\osa 2\kuukauden_paivat\main.c
+	"kuukaudet.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
-	"kuukaudet.h"
 
-1700057030 c:\users\elli\documents\yliopisto\2. vuosi\2023-2024\1.-2. periodi\ohjelmoinnin tekniikka c\osa 2\kuukauden_paivat\kuukaudet.h
+1700067772 c:\users\elli\documents\yliopisto\2. vuosi\2023-2024\1.-2. periodi\ohjelmoinnin tekniikka c\osa 2\kuukauden_paivat\kuukaudet.h
+
+1700067784 source:c:\users\elli\documents\yliopisto\2. vuosi\2023-2024\1.-2. periodi\ohjelmoinnin tekniikka c\osa 2\kuukauden_paivat\kuukaudet.c
 	<stdio.h>
+	<ctype.h>
+	"kuukaudet.h"
 
